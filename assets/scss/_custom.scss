@@ -1,0 +1,28 @@
+// White and Gray colors from NodeModules/bootstrap/scss/variables
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+// end White and Gray
+
+// scss-docs-start theme-color-variables from NodeModules/bootstrap/scss/variables
+
+$primary: Orange;
+$secondary: $gray-500;
+$success: teal;
+$info: steelblue;
+$warning: crimson;
+$danger: maroon;
+$light: $gray-300;
+$dark: $gray-900;
+// scss-docs-end theme-color-variables
+
+// Import Bootstrap 5
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
